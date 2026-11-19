@@ -1,0 +1,51 @@
+{
+  "tool": "control-sim-lab",
+  "version": "0.1.0",
+  "data_kind": "synthetic-demo",
+  "source": "fixed artificial plant",
+  "python": "3.13.18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "result": {
+    "plant": "first_order",
+    "setpoint": 1.0,
+    "dt": 0.05,
+    "cases": [
+      {
+        "controller": "P",
+        "metrics": {
+          "steady_state_output": 0.6666665318563314,
+          "steady_state_error": 0.3333334681436686,
+          "overshoot": 0.0,
+          "rise_time": null,
+          "settling_time": 5.0,
+          "iae": 1.9055555390321721
+        },
+        "final_output": 0.6666666083488425
+      },
+      {
+        "controller": "PI",
+        "metrics": {
+          "steady_state_output": 0.9867767081150947,
+          "steady_state_error": 0.013223291884905342,
+          "overshoot": 0.0,
+          "rise_time": 1.6500000000000001,
+          "settling_time": 2.6,
+          "iae": 0.6983906759863054
+        },
+        "final_output": 0.9885380227581619
+      },
+      {
+        "controller": "PID",
+        "metrics": {
+          "steady_state_output": 0.9974192803383055,
+          "steady_state_error": 0.002580719661694486,
+          "overshoot": 0.0,
+          "rise_time": 1.6,
+          "settling_time": 2.15,
+          "iae": 0.714391614448257
+        },
+        "final_output": 0.9979509495229265
+      }
+    ]
+  }
+}
