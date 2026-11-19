@@ -1,6 +1,6 @@
 # Control Sim Lab · PID step-response sandbox
 
-[中文](README.md) · [Sources](SOURCES.md) · [AI disclosure](AI_USE.md)
+[中文](README.md) · [Sources](SOURCES.md)
 
 Simulate first-/second-order linear plants and P/PI/PID controllers in discrete time,
 then report overshoot, steady-state error, rise time, settling time and IAE side by side.

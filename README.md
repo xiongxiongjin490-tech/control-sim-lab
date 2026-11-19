@@ -1,6 +1,6 @@
 # Control Sim Lab · PID 阶跃响应仿真台
 
-[English](README.en.md) · [来源说明](SOURCES.md) · [AI 辅助说明](AI_USE.md)
+[English](README.en.md) · [来源说明](SOURCES.md)
 
 在离散时间下仿真一阶 / 二阶线性对象与 P / PI / PID 控制器，输出超调量、稳态误差、上升时间、调节时间和 IAE，并把多组控制器放在同一张对比表里。项目独立编写，不包含真实对象模型、硬件驱动或现场整定参数。
 
